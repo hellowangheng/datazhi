@@ -79,6 +79,7 @@ $$
 
 ![kelly3](https://github.com/hellowangheng/datazhi/blob/master/img-folder/kelly/kelly3.png)
 
-可见，经过100次模拟，仓位60%的收益已经远远超过其他几个，接下来是仓位为40%，其余的仓位收益几乎一样。由于目前数据已经不再一个数量级，我们需要对数据进行对数化处理，来更加直观的展示每一个仓位和收益的变化关系。![kelly 4](D:\PraviteFiles\article\Finance\kelly 4.png)
+可见，经过100次模拟，仓位60%的收益已经远远超过其他几个，接下来是仓位为40%，其余的仓位收益几乎一样。由于目前数据已经不再一个数量级，我们需要对数据进行对数化处理，来更加直观的展示每一个仓位和收益的变化关系。
+![kelly 4](https://github.com/hellowangheng/datazhi/blob/master/img-folder/kelly/kelly4.png)
 
 对数化处理之后，我们发现仓位为60%时，收益率最高，接下来是40%，仓位10%的最为稳定，仓位20%和10%相对，稳定性较差，但收益稍高。仓位90%的稳定性最差，风险也是最大的。在投资时，如果是保守型的，则可以选择10%仓位，如果追求高收益，则可以选择60%的仓位。
