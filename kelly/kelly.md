@@ -28,7 +28,7 @@
 
 资金曲线
 
-![kelly1](D:\PraviteFiles\article\Finance\kelly1.png)
+![kelly1](https://github.com/hellowangheng/datazhi/blob/master/img-folder/kelly/kelly1.png)
 
 如果我们对仓位进行调整，分别每次下注资金：60%，40%，20%，10%，假设胜率还是80%，模拟10次，我们再看一下结果，10次之后，获利依次是：69.84、587.20、431.28、175.9、73.63。最终获益最高的是最低的**8**倍多。
 
@@ -53,7 +53,7 @@
 
 资金曲线
 
-![kelly2](D:\PraviteFiles\article\Finance\kelly2.png)
+![kelly2](https://github.com/hellowangheng/datazhi/blob/master/img-folder/kelly/kelly2.png)
 
 每可以看出，每次下注60%可以获取收益最大，但波动最大，如果是10%，收益较小，但收益比较稳定。
 
@@ -77,7 +77,7 @@ $$
 
 前面的数据只是模拟进行了10次，如果我们模拟进行100次，那结果则会相差十万八千里。
 
-![kelly3](D:\PraviteFiles\article\Finance\kelly3.png)
+![kelly3](https://github.com/hellowangheng/datazhi/blob/master/img-folder/kelly/kelly3.png)
 
 可见，经过100次模拟，仓位60%的收益已经远远超过其他几个，接下来是仓位为40%，其余的仓位收益几乎一样。由于目前数据已经不再一个数量级，我们需要对数据进行对数化处理，来更加直观的展示每一个仓位和收益的变化关系。![kelly 4](D:\PraviteFiles\article\Finance\kelly 4.png)
 
