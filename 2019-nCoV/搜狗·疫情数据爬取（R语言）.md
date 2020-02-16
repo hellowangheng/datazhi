@@ -4,13 +4,13 @@
 
 趁着周末，来写个爬虫，获取[搜狗疫情](http://sa.sogou.com/new-weball/page/sgs/epidemic?type_page=WEB)提供的数据，爬取各个省份以及各个市区的确诊、治愈和死亡数据。
 
-![1581827981508](D:\Program\datazhi\datazhi\img-folder\2019-nCoV\1581827981508.png)
+![1581827981508](https://github.com/hellowangheng/datazhi/blob/master/img-folder/2019-nCoV/1581827981508.png)
 
 ## 网页分析
 
 网页地址为：http://sa.sogou.com/new-weball/page/sgs/epidemic?type_page=WEB，在分析网页时，如果在这里使用浏览器的**检查**功能，根据标签来写xpath，是无法爬取到数据的。如下图，湖北的数据在div.total标签里面，但在源代码中无法搜索到。而且，read_html是获取网页源码，因此如果根据该标签获取数据，结果肯定为空。
 
-![1581829059936](D:\Program\datazhi\datazhi\img-folder\2019-nCoV\1581829059936.png)
+![1581829059936](https://github.com/hellowangheng/datazhi/blob/master/img-folder/2019-nCoV/1581829059936.png)
 
 如果仔细研究一下源码，会发现所有数据都在**<script type="text/javascript">**，所以xpath=/html/body/script[1]/text()。
 
@@ -139,4 +139,4 @@ dbWriteTable(con,"province_dt",province,overwrite =FALSE,append=TRUE,row.names=F
 
 本文所涉及的代码、数据库建表脚本以及数据，均已上传至GitHub，点击**阅读原文**即可获取。
 
-![1581839056576](D:\Program\datazhi\datazhi\img-folder\2019-nCoV\1581839056576.png)
+![1581839056576](https://github.com/hellowangheng/datazhi/blob/master/img-folder/2019-nCoV/1581839056576.png)
