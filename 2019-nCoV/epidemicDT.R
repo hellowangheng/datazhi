@@ -36,7 +36,7 @@ for (i in area) {
   
   
   for (j in i$cities) {
-    print("atart")
+   # print("atart")
     #print(j)
     cityName<-j$cityName
     confirmedCount=j$confirmedCount
@@ -61,8 +61,8 @@ colnames(dt_province)<-c("PROVINCESHORTNAME","CONFIRMEDCOUNT","CUREDCOUNT","DEAD
 
 
 
-write.csv(dt_city,"epidemic_city20200216.csv")
-write.csv(dt_province,"epidemic_province20200216.csv")
+#write.csv(dt_city,"epidemic_city20200216.csv")
+#write.csv(dt_province,"epidemic_province20200216.csv")
 
 
 #数据保存至数据库
